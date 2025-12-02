@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-image:
+      radial-gradient(white 1px, transparent 1px),
+      radial-gradient(white 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-position: 0 0, 25px 25px;
+}
+
+.starwars-logo {
+    width: 300px;
+    max-width: 80vw;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    filter: drop-shadow(0 0 12px #ffe81f);
+}
+
+.controls { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 16px; }
+.buttons button { margin: 6px; padding: 10px 16px; font-size: 15px; background: #222; color: #ffe81f; border: 1px solid #555; cursor: pointer; transition: .2s; }
+.buttons button:hover { background: #444; }
+.size-row { display: flex; align-items: center; gap: 8px; color: #ffe81f; }
+.range-label { margin-left: 12px; }
+.avatar-container { margin: 22px auto 8px; display: inline-block; border: 3px solid #ffe81f; background: #111; box-shadow: 0 0 20px #ffe81f; border-radius: 6px; }
+.avatar-container svg { display: block; width: 200px; height: 200px; }

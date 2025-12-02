@@ -1,0 +1,22 @@
+
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="none"/>
+  
+  <!-- Capuz (marrom escuro) -->
+  <path d="M50 90 Q100 10 150 90" fill="#5a3e2b"/>
+  
+  <!-- Rosto (tom neutro) -->
+  <circle cx="100" cy="105" r="30" fill="#d2b48c"/>
+  
+  <!-- Corpo (túnica bege) -->
+  <path d="M60 90 L140 90 L165 180 L35 180 Z" fill="#c2a67d"/>
+  
+  <!-- Sabre de luz (verde) -->
+  <rect x="95" y="40" width="10" height="70" rx="3" fill="#00ff00"/>
+  
+  <!-- Punho (cinza escuro) -->
+  <rect x="93" y="110" width="14" height="15" fill="#444"/>
+  
+  <!-- Mão (tom neutro) -->
+  <circle cx="100" cy="120" r="8" fill="#d2b48c"/>
+</svg>

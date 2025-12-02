@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerador de Avatar Star Wars</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+    <img src="/assets/starwars-logo.png" alt="Logo Star Wars" class="starwars-logo">
+</header>
+<main>
+    <div class="controls">
+      <input type="text" id="nameInput" placeholder="Digite um nome ou ID">
+      <div class="buttons">
+        <button onclick="generateAvatar()">Gerar Avatar</button>
+        <button onclick="generateRandomAvatar()">Modo Aleatório</button>
+        <button onclick="downloadPNG()">Baixar PNG</button>
+      </div>
+      <div class="size-row">
+        <label for="sizeSelect">Tamanho:</label>
+        <select id="sizeSelect">
+          <option value="128">Pequeno (128px)</option>
+          <option value="200" selected>Médio (200px)</option>
+          <option value="256">Grande (256px)</option>
+          <option value="320">XL (320px)</option>
+        </select>
+        <label for="sizeRange" class="range-label">Ou ajuste (px):</label>
+        <input type="range" id="sizeRange" min="96" max="512" step="8" value="200">
+        <span id="sizeValue">200px</span>
+      </div>
+    </div>
+    <div class="avatar-container" id="avatarContainer"></div>
+</main>
+<footer>
+    <p>Inspirado em Star Wars | Baseado no projeto <a href="https://github.com/mmamorim/svguid" target="_blank">svguid</a></p>
+</footer>
+<script type="module" src="/script.js"></script>
+</body>
+</html>

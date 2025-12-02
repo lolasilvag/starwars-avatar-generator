@@ -1,0 +1,22 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cabeça -->
+  <circle cx="100" cy="80" r="50" fill="#FFD7B5" stroke="#000" stroke-width="2"/>
+  
+  <!-- Cabelo (coques estilo Leia) -->
+  <circle cx="70" cy="70" r="25" fill="#2C1E1E" stroke="#000" stroke-width="1"/>
+  <circle cx="130" cy="70" r="25" fill="#2C1E1E" stroke="#000" stroke-width="1"/>
+  <path d="M60 90 Q100 120 140 90" fill="none" stroke="#2C1E1E" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Vestido (inspirado no traje branco de Ep. IV) -->
+  <path d="M70 130 L70 250 L130 250 L130 130" fill="#FFFFFF" stroke="#000" stroke-width="2"/>
+  <path d="M70 150 L130 150" fill="none" stroke="#000" stroke-width="1"/>
+  <path d="M70 170 L130 170" fill="none" stroke="#000" stroke-width="1"/>
+  
+  <!-- Detalhes do rosto -->
+  <circle cx="85" cy="70" r="5" fill="#000"/> <!-- Olho esquerdo -->
+  <circle cx="115" cy="70" r="5" fill="#000"/> <!-- Olho direito -->
+  <path d="M90 100 Q100 110 110 100" fill="none" stroke="#000" stroke-width="2"/> <!-- Sorriso -->
+  
+  <!-- Faixa do cabelo (inspirada no traje de Ep. VI) -->
+  <rect x="60" y="55" width="80" height="10" fill="#C0C0C0" stroke="#000" stroke-width="1"/>
+</svg>
